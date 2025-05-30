@@ -1,2 +1,6 @@
-terraform.tfstate
-terraform.tfstate.backup
+# Terraform state files
+.terraform/
+*.tfstate
+*.tfstate.backup
+crash.log
+.terraform.lock.hcl
